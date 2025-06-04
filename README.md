@@ -42,5 +42,3 @@ HarvestHarmony/
 ├── trained_model/
 │ └── plant_disease_prediction_model.h5
 ├── requirements.txt
-
-Empowering plant lovers with AI-driven plant health insights and assistance!
