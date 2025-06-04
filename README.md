@@ -38,5 +38,6 @@ HarvestHarmony/
 ├── trained_model/
 │   └── plant_disease_prediction_model.h5  # Pretrained CNN model
 ├── requirements.txt                 # Required Python packages
+```
 
 Kaggle Dataset Link: https://www.kaggle.com/datasets/abdallahalidev/plantvillage-dataset
