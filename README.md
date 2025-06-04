@@ -34,4 +34,61 @@ HarvestHarmony is an AI-powered plant disease detection and assistant app built 
 
 ## 📁 Folder Structure
 
-<pre> 📦 HarvestHarmony/ ├── 📄 main_app.py # Main Streamlit app for disease detection ├── 📄 chatbot.py # Gemini-powered Streamlit chatbot (Emily) ├── 📄 class_indices.json # Class index to label mapping for model predictions ├── 🖼️ bg.jpg # Background image for Streamlit app ├── 📁 trained_model/ │ └── 📄 plant_disease_prediction_model.h5 # Pre-trained Keras model ├── 📄 requirements.txt # Python dependencies </pre>
+HarvestHarmony/
+├── main_app.py
+├── chatbot.py
+├── class_indices.json
+├── bg.jpg
+├── trained_model/
+│ └── plant_disease_prediction_model.h5
+├── requirements.txt
+
+## ⚙️ Setup Instructions
+
+### 1. Clone the Repository
+
+```bash
+git clone https://github.com/milan070das/HarvestHarmony.git
+cd HarvestHarmony
+
+
+---
+
+## Getting Started
+
+1. **Clone the repository**
+    ```
+    git clone https://github.com/milan070das/HarvestHarmony.git
+    cd HarvestHarmony
+    ```
+
+2. **Install dependencies**
+    ```
+    pip install -r requirements.txt
+    ```
+
+3. **Run the main application**
+    ```
+    streamlit run main_app.py
+    ```
+
+4. **(Optional) Launch the chatbot**
+    ```
+    streamlit run chatbot.py
+    ```
+
+---
+
+## Contributing
+
+Contributions are welcome! Please open an issue or submit a pull request for suggestions or improvements.
+
+---
+
+## License
+
+Distributed under the MIT License. See `LICENSE` for more information.
+
+---
+
+Empowering plant lovers with AI-driven plant health insights and assistance!
