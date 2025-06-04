@@ -77,18 +77,14 @@ cd HarvestHarmony
     streamlit run chatbot.py
     ```
 
----
 
 ## Contributing
 
 Contributions are welcome! Please open an issue or submit a pull request for suggestions or improvements.
 
----
 
 ## License
 
 Distributed under the MIT License. See `LICENSE` for more information.
-
----
 
 Empowering plant lovers with AI-driven plant health insights and assistance!
