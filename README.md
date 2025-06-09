@@ -41,3 +41,13 @@ HarvestHarmony/
 ```
 
 Kaggle Dataset Link: https://www.kaggle.com/datasets/abdallahalidev/plantvillage-dataset
+
+## 🔐 Set Up Your Google API Key (Gemini)
+
+1. Visit [Google AI Studio](https://makersuite.google.com/app/apikey).
+2. Sign in with your Google account.
+3. Click **"Get API Key"** and copy the generated key.
+4. Paste it the place where it is written "your-api-key"
+
+## Link to access the app:
+harvestharmony.streamlit.app (Copy and paste it in browser)
