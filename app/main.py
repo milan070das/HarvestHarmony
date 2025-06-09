@@ -9,10 +9,12 @@ import streamlit as st
 import google.generativeai as genai
 import subprocess
 
-os.environ["GEMINI_API_KEY"] = "AIzaSyA0jX1JDZD7Tkhgm4crgO08bAjG9KFBUYc"
 
-# Configure the API
-genai.configure(api_key=os.environ["GEMINI_API_KEY"])
+api_key = st.secrets["API_KEY"]
+genai.configure(api_key=api_key)
+# set up api key
+# os.environ["GEMINI_API_KEY"] = "your-api-key"
+# genai.configure(api_key=os.environ["GEMINI_API_KEY"])
 
 # Create a model and generate content
 model1 = genai.GenerativeModel('gemini-2.0-flash')
